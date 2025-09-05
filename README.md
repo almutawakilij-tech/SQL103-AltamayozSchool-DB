@@ -1,31 +1,30 @@
-# Twitter Simulation Project
+# SQL103 Project - Altamayoz School
 
-This project simulates a simplified version of Twitter using SQL (MySQL).
+This project is the continuation of **SQL101** and **SQL102**, applying advanced SQL concepts from the **SQL103 course**.
 
-## Contents
-- **ERD Diagram** (`ERD.png`) : Shows the entity-relationship model for the database.
-- **SQL Script** (`twitter_sim.sql`) : Contains all SQL code to create the database, tables, constraints, procedures, and sample data.
+## Requirements
+- Create relationships:
+  - **Teachers ↔ Students** (Many-to-Many)
+  - **Subjects ↔ Teachers** (One-to-Many)
+  - **Subjects ↔ Students** (Many-to-Many)
+- Create a **Procedure** (`student_info`) that shows students with their enrolled subjects.
+- Create a **View** (`teacher_info`) with teacher name, office number, and subject.
+- Drop the view.
+- Create an **Index** on student names.
+- Show the index and drop it.
 
-## How to Use
-1. Open MySQL Workbench or any MySQL client.
-2. Run the script `twitter_sim.sql`.
-3. The script will:
-   - Create the database `twitter_sim`.
-   - Create tables (`users`, `profiles`, `followers`, `tweets`, `likes`).
-   - Create stored procedures (`createAccount`, `User_Follow`).
-   - Insert sample data (users, tweets, follows, likes).
-   - Provide example query to count tweets for a given user.
+## Files
+- **create_tables.sql** → Database & tables creation.
+- **insert_data.sql** → Insert sample data (students, teachers, subjects).
+- **queries.sql** → Queries for procedure, view, and index.
+- **ERD.png** → Database relationships diagram.
+- **README.md** → Project documentation.
 
-## GitHub Repository Structure
-```
-twitter_project/
-│
-├── README.md                # Project overview & instructions
-├── twitter_sim.sql          # Full SQL script
-└── ERD.png                  # ER Diagram image (to be added)
-```
+## ERD (Entity Relationship Diagram)
+The database relationships are designed as follows:
 
-## Notes
-- Passwords are stored as SHA-256 hashes in binary format.
-- All IDs are auto-increment.
-- Account creation and following are handled via stored procedures.
+![Database ERD](ERD.png)
+
+## 🔗 Previous Projects
+- [SQL101 Project](#)
+- [SQL102 Project](#)
