@@ -26,5 +26,5 @@ The database relationships are designed as follows:
 ![Database ERD](ERD.png)
 
 ## 🔗 Previous Projects
-- [SQL101 Project](#)
+- [SQL101-AltamayozSchool-DB](#)
 - [SQL102 Project](#)
