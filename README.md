@@ -16,7 +16,7 @@ This project is the continuation of **SQL101** and **SQL102**, applying advanced
 ## Files
 - **create_tables.sql** → Database & tables creation.
 - **insert_data.sql** → Insert sample data (students, teachers, subjects).
-- **queries.sql** → Queries for procedure, view, and index.
+- **Relationships.sql** → Relationships between tables, view, and index.
 - **ERD.png** → Database relationships diagram.
 - **README.md** → Project documentation.
 
@@ -26,5 +26,5 @@ The database relationships are designed as follows:
 ![Database ERD](ERD.png)
 
 ## 🔗 Previous Projects
-- [SQL101-AltamayozSchool-DB](#)
+- [SQL101 Project](#)
 - [SQL102 Project](#)
