@@ -27,4 +27,4 @@ The database relationships are designed as follows:
 
 ## 🔗 Previous Projects
 - [SQL101 Project](https://github.com/almutawakilij-tech/SQL101-AltamayozSchool_DB)
-- [SQL102 Project](#)
+- [SQL102 Project](https://github.com/almutawakilij-tech/SQL102-AltamayozSchool-DB)
