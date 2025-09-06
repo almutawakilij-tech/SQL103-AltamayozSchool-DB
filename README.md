@@ -7,7 +7,6 @@ This project is the continuation of **SQL101** and **SQL102**, applying advanced
   - **Teachers ↔ Students** (Many-to-Many)
   - **Subjects ↔ Teachers** (Many-to-Many)
   - **Subjects ↔ Students** (Many-to-Many)
-- Create a **Procedure** (`student_info`) that shows students with their enrolled subjects.
 - Create a **View** (`teacher_info`) with teacher name, office number, and subject.
 - Drop the view.
 - Create an **Index** on student names.
