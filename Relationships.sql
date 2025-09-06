@@ -22,7 +22,7 @@ FOREIGN KEY (SubjectID) REFERENCES Subjects(SubjectID)
 );
 
 
-- Many-to-Many: Students and Subjects
+-- Many-to-Many: Students and Subjects
 CREATE TABLE Student_Subject (
 student_id INT,
 subject_id INT,
